@@ -1,4 +1,5 @@
 @page
+@using System.Globalization
 @model RazorAppDemo.Pages.Index
 
 <!DOCTYPE html>
@@ -25,7 +26,7 @@
                     <tr>
                         <td>@category.Id</td>
                         <td>@category.Title</td>
-                        <td>@category.Price.ToString("C", new System.Globalization.CultureInfo("pt-BR"))</td>
+                        <td>@category.Price.ToString("C", new CultureInfo("pt-BR"))</td>
                     </tr>
                 }
         </tbody>

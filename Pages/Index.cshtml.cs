@@ -9,3 +9,9 @@ namespace RazorAppDemo.Pages
         }
     }
 }
+
+public record Category (
+    int Id,
+    string Title,
+    decimal Price
+);

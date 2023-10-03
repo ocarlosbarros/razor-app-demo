@@ -9,12 +9,6 @@
 </head>
 <body>
 <h2>Sobre</h2>
-<nav>
-    <ul>
-        <li><a href="~/Login">Login</a></li>
-        <li><a href="~/About">About</a></li>
-        <li><a href="~/">Categorias</a></li>
-    </ul>
-</nav>
+@await Html.PartialAsync("Shared/NavMenuPartial")
 </body>
 </html>

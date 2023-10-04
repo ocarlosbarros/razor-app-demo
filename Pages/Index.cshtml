@@ -1,18 +1,8 @@
 @page
-@model RazorAppDemo.Pages.Index
-
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Listagem de Itens</title>
-</head>
-<body>
-<main>
-    @for    (var index = 0; index <= 10; index += 1)  {
-        <p>Item @index</p>
-    }
-</main>
-</body>
-</html>
+@model Index
+@{
+    ViewData["Title"] = "Bem vindos!";
+}
+<section>
+<h2>Home</h2>
+</section>

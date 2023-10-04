@@ -1,6 +1,6 @@
 # [Visão geral sobre o ASP.NET Razor Pages](https://balta.io/cursos/uma-visao-geral-do-aspnet-razor-pages)
 
-# :clipboard: Table of Contents
+# :clipboard: Tabela de conteúdo
 
  * Criando o Projeto
  * Entendendo o Projeto

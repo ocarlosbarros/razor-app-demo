@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewData["Title"] - Razor App Demo</title>
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/RazorAppDemo.styles.css" asp-append-version="true">
 </head>
 <body>
 <main>
     <partial name="Shared/NavMenuPartial" />
     @RenderBody()
 </main>
+<footer>
+    ₢ 2023 - Carlos Barros | Todos os direitos reservados
+</footer>
+@RenderSection(name:"scripts", required: false)
 </body>
 </html>
